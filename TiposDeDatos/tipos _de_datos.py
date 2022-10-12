@@ -1,0 +1,1 @@
+##conjunto de valores que tienen una serie de caracteristicas y propoidades determinadas
