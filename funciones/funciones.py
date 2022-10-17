@@ -18,7 +18,7 @@ input()##esta funcion sirve para pedir datos al usuario
 ##todo lo que se ingrese en imput sera tomado como texto
 ##funciones creadas:
 ##estructura para crear funciones
-def saludo()
+def saludo
     return "hola"
 ##uso de funcion
 print(saludo())
