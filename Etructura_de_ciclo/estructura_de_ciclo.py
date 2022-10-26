@@ -76,6 +76,71 @@
 #    if letras=="a":
 #      contador+=1
 #print("en este mensaje tienes",contador,"letras a")
+##numeros primos la divicion en ellos mismos y 1 residuo es simpre cero
+#2/1==0
+#2/2==0
+#3/1==0
+#3/3==0
+#5/1==0
+#5/5==0
+##hacer un algoritmo que pida al usuario un numero
+##y me diga si es num ero primo o no
+#numero=int(input("ingrese un numero"))
+#for n in range(2,numero):
+#    if numero%n ==0:
+#        break
+#    else:
+#        print("es primo")
+#        break
+#        print("no es primo")
+
+condicion=True
+while condicion==True:
+    numero=int(input("ingrese un numero"))
+    if numero%2==0 or numero%3 ==0:
+        print("no es primo")
+    else:
+        print("es primo")
+        condicion=False
+
+#Escribir un programa que muestre el eco de
+# etodo lo que el usuario introduzca hasta que el usurio escriba "
+#"salir"que terminara
+palabra=""
+while palabra!="salir":
+    palabra= input("escriba algo:")
+    print(palabra)
+
+#pedir un texto largo y mostrar contar la cantidad de vocales que existe en el texto
+oracion =input("ingrese su oracion")
+vocales=["a","e","i","o","u"]
+contadorVocales=0
+for letras in oracion:
+    if letras in vocales:
+        contadorVocales+=1
+    print("la cantidad de vocales es:",contadorVocales)
+#2
+sentence=input("ingrese una oracion")
+countVocals=0
+for words in sentence:
+    match words:
+     case "a":
+         countVocals+=1
+     case "e":
+         countVocals+=1
+     case "i":
+         countVocals+=1
+     case "o":
+         countVocals+=1
+     case "u":
+         countVocals+=1
+print("la cxantidad de vocales es:",countVocals)
+
+
+
+
+
+
 
 
 
