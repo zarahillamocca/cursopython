@@ -136,6 +136,37 @@ for words in sentence:
          countVocals+=1
 print("la cxantidad de vocales es:",countVocals)
 
+mensajesOpciones="""
+========================
+selecciona una opcion
+1 suma
+2 resta
+3 divicion
+4 multiplicacion
+5 salir
+=========================
+"""
+while True:
+    print(mensajesOpciones)
+    opcion=input("imngrese una opcion valida entre"(1-5))
+    numeroUno=int(input("ingrese elm primer numero"))
+    numeroDos = int(input("ingrese elm segundo numero"))
+    match opcion:
+        case "1":
+            print(f"la suma de {numeroUno}+{numeroDos}={numeroUno+numeroDos}")
+        case "2":
+            print(f"la resta de {numeroUno}-{numeroDos}={numeroUno - numeroDos}")
+        case "3":
+            print(f"la division de {numeroUno}/{numeroDos}={numeroUno / numeroDos}")
+        case "4":
+            print(f"la multiplicacion de {numeroUno}*{numeroDos}={numeroUno * numeroDos}")
+        case "5":
+            break
+        case __:
+            print("esta opcion no exixte")
+
+
+
 
 
 
