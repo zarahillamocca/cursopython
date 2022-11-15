@@ -68,6 +68,49 @@ def countvocal(oracion,vocal):
     return contador
 print(countvocal(sentence,vocales))
 
+##Operador Matematico(NumeroUno,NumeroDos,Operacion)
+
+##Opercion Matematica (4,5"suma")
+##Por Consola La SUma  De 4+5
+##1 UTILIZAR LA PALABRA SERVADA DEF
+##2 ASIGNAMOS UN NOMBRE A LA FUNCION--DESCRIPTIVO
+##3 SIEMPRE TIENE QUE RECIVIR PARAMETROS
+ ##()--No Resive Parametros
+ ##(Nombre)---la funcion esta reciviendo parametros
+ ##(edad,nombre)
+##4 SIEMPTRE la funcion tiene que retornar un tipo de dato
+def saludo(nombre):
+    respuesta=f"hola como estas nombre"
+    return respuesta
+##como uso
+arrayAmigos=["ronald","claudio","jose","diego","mozar","kevin","lilian"]
+for amigo in range(0,len(arrayAmigos)):
+    print(saludo(arrayAmigos[amigo]))
+
+##CREAR UNA FUNCION QUE ME RETORNE N NUMEROS FIBONACI
+operacion="resta"
+numeroUno=80
+numeroDos=50
+if operacion=="suma"
+    print
+
+##CREAR UNA FFUNCION QUE ME RETORNE EL FACTORIAL DE UN NUMERO N
+##CREAR UNA FUNCION QUE ME DIGA SI UNA PALABRA ES PALINDROMO
+## aqui crear mis funciones
+def operaciones(num1,num2,operador):
+    if operador=="suma":
+        total=num1+num2
+    if operador=="resta":
+        total=num1-num2
+    if operador=="por":
+        total=num1*num2
+    if operador=="entre":
+        total=num1/num2
+    return total
+def sludo():
+    mensaje="hola alumnitos bellos"
+    return mensaje
+
 
 
 
