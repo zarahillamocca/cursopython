@@ -33,3 +33,6 @@ vocalesUno.remove('u')
 
 print(vocalesUno)
 
+#
+#Escriba una funcion
+
