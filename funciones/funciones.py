@@ -93,11 +93,8 @@ numeroUno=80
 numeroDos=50
 if operacion=="suma"
     print
-
-##CREAR UNA FFUNCION QUE ME RETORNE EL FACTORIAL DE UN NUMERO N
-##CREAR UNA FUNCION QUE ME DIGA SI UNA PALABRA ES PALINDROMO
 ## aqui crear mis funciones
-def operaciones(num1,num2,operador):
+def operaciones(num1,num2,operador):+
     if operador=="suma":
         total=num1+num2
     if operador=="resta":
